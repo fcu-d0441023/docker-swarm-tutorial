@@ -15,7 +15,7 @@ services:
         - my_password
 
     web:
-      image: twtrubiks/my_swarm_secrets_demo        
+      image: qq92314/docker_secrets_test        
       ports:
         - "8000:8000"
       networks:
